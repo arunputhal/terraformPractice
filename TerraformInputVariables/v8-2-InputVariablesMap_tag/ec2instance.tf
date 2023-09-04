@@ -13,5 +13,5 @@ resource "aws_instance" "my-ec2-vm" {
     sudo systemctl start httpd
     echo "<h1> Welcome to My World</h1>"
     EOF
-  tags = var.ec2_instance_tags
+  tags                   = var.ec2_instance_tags
 }

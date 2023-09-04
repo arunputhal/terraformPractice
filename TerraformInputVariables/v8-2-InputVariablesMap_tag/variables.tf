@@ -25,7 +25,7 @@ variable "ec2_instance_type" {
 }
 variable "ec2_instance_tags" {
   description = "EC2 Instance Tags"
-  type = map(string)
+  type        = map(string)
   default = {
     "Name" = "Ec2 Web"
     "Tier" = "Web"
